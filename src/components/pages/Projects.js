@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom"
 import Message from "../layout/Message"
 import Container from "../layout/Container"
 import LinkButton from "../layout/LinkButton"
+import Loading from '../layout/Loading'
 
 import styles from './Projects.module.css'
 import ProjectCard from "../projects/ProjectCard"
@@ -11,6 +12,7 @@ import ProjectCard from "../projects/ProjectCard"
 function Projects() {
 
     const [projects, setProjects] = useState([])
+    const [removeLoading, setRemoveLoading] = useState(false)
 
     const location = useLocation()
     let message = ''
@@ -28,6 +30,7 @@ function Projects() {
             .then(data => {
                 console.log(data)
                 setProjects(data)
+                setRemoveLoading(true)
             })
             .catch((err) => console.log(err))
     }, [])
@@ -44,6 +47,7 @@ function Projects() {
                     <ProjectCard id={project.id} name={project.name} budget={project.budget}
                         category={project.category.name} key={project.id} />
                 ))}
+                {!removeLoading && <Loading />}
             </Container>
         </div>
     )
