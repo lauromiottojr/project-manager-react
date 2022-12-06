@@ -1,4 +1,4 @@
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 import ProjectForm from '../projects/ProjectForm'
 
@@ -6,7 +6,7 @@ import styles from './NewProject.module.css'
 
 function NewProject() {
 
-    const history = useHistory()
+    const history = useNavigate()
 
     function createPost(project) {
         // initialize costs and services
@@ -31,7 +31,7 @@ function NewProject() {
         <div className={styles.newprojectContainer}>
             <h1>Criar projeto</h1>
             <p>Crie seu projeto para depois adicionar os serviços</p>
-            <ProjectForm btnText="Criar projeto" />
+            <ProjectForm handleSubmit={createPost} btnText="Criar projeto" />
         </div>
     )
 }
