@@ -1,37 +1,22 @@
 {
   "projects": [
     {
-      "name": "projeto attaqwe",
-      "budget": "99100",
+      "name": "projeto 1",
+      "budget": "10",
       "category": {
-        "id": "2",
-        "name": "Design"
+        "id": "1",
+        "name": "Infra"
       },
-      "cost": 0,
-      "service": [],
-      "id": 3
-    },
-    {
-      "name": "Projeto 1",
-      "budget": "123",
-      "category": {
-        "id": "2",
-        "name": "Design"
-      },
-      "cost": 0,
-      "service": [],
-      "id": 4
-    },
-    {
-      "name": "Projeto 2",
-      "budget": "435",
-      "category": {
-        "id": "3",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "service": [],
-      "id": 5
+      "cost": 9,
+      "services": [
+        {
+          "name": "novo",
+          "cost": "9",
+          "description": "sss",
+          "id": "405918b0-ff4a-42b3-bf50-1f1bcc1cfdae"
+        }
+      ],
+      "id": 1
     }
   ],
   "categories": [
