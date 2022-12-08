@@ -7,16 +7,87 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 9,
+      "cost": 10,
       "services": [
         {
           "name": "novo",
           "cost": "9",
           "description": "sss",
           "id": "405918b0-ff4a-42b3-bf50-1f1bcc1cfdae"
+        },
+        {
+          "name": "novo",
+          "cost": "1",
+          "description": "efwf",
+          "id": "40d45d52-6e0b-4fd1-95ad-2930224c9590"
         }
       ],
       "id": 1
+    },
+    {
+      "name": "Novo projeto 2",
+      "budget": "10000",
+      "category": {
+        "id": "4",
+        "name": "Desenvolvimento"
+      },
+      "cost": 31,
+      "services": [
+        {
+          "name": "gerge",
+          "cost": "1",
+          "description": "erger",
+          "id": "a58fe56f-0f8c-48cf-9141-437838f9f40f"
+        },
+        {
+          "name": "dqwdqwd",
+          "cost": "3",
+          "description": "hjtyjtyj",
+          "id": "3d36ca70-0e1e-496f-8b5e-df6fb68e824f"
+        },
+        {
+          "name": "dqwdqwd",
+          "cost": "3",
+          "description": "hjtyjtyj",
+          "id": "3d36ca70-0e1e-496f-8b5e-df6fb68e824f"
+        },
+        {
+          "name": "dqwdqwd",
+          "cost": "3",
+          "description": "hjtyjtyj",
+          "id": "3d36ca70-0e1e-496f-8b5e-df6fb68e824f"
+        },
+        {
+          "name": "qwdqwdqw",
+          "cost": "1",
+          "description": "hrthrth",
+          "id": "a426c18c-d007-4db8-8fbe-b7832e2d6a52"
+        },
+        {
+          "name": "Novo serviço",
+          "cost": "10",
+          "description": "Novo",
+          "id": "17b5608d-67e7-40c5-a820-def9823761a3"
+        },
+        {
+          "name": "Contratar f",
+          "cost": "10",
+          "description": "CCCC",
+          "id": "e8d9e8f9-a736-4303-babf-20900480cd03"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Novo sem serviços",
+      "budget": "12312321",
+      "category": {
+        "id": "2",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
